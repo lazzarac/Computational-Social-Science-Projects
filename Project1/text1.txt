@@ -1,0 +1,10 @@
+cd ~/Documents/UCBF25
+git clone https://github.com/lazzarac/Computational-Social-Science-Projects.git
+cd ~/Documents/UCBF25/Computational-Social-Science-Projects
+mkdir Project1
+cd ~/Documents/UCBF25/Computational-Social-Science-Projects/Project1
+vim "text1.txt"
+:wq
+git add . 
+git commit -m "simon's edit"
+git push -u origin main
